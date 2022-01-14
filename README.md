@@ -22,3 +22,15 @@ Finally run a test example::
 
      cd module0_flow
      source ../../run_module0_flow_example.sh larndsim.example.h5
+
+# Helpful links:
+
+``module0_flow`` source code: https://github.com/peter-madigan/module0_flow (don't forget to switch to the develop branch)
+
+``module0_flow`` docs: https://module0-flow.readthedocs.io/en/latest/index.html
+
+``h5flow`` source code: https://github.com/peter-madigan/h5flow
+
+``h5flow`` docs: https://h5flow.readthedocs.io/en/latest/
+
+NERSC portal for public access to Module0 data: https://portal.nersc.gov/project/dune/data/Module0/
