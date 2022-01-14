@@ -21,6 +21,9 @@ WORKFLOWS='h5flow_yamls/reco/charge/charge_event_building.yaml h5flow_yamls/reco
 
 if [ -e $OUTPUT_FILE ]; then
     rm -i $OUTPUT_FILE
-done
+fi
 
 $H5FLOW_CMD -c $WORKFLOWS -i $INPUT_FILE -o $OUTPUT_FILE
+
+echo "Done!"
+echo "Output can be found at $OUTPUT_FILE"
