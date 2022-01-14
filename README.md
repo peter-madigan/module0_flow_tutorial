@@ -5,11 +5,11 @@ This repo contains a few scripts to help you get started with running
 
 First clone this directory::
 
-      git clone <>
+      git clone https://github.com/peter-madigan/module0_flow_tutorial.git
 
 Then download the necessary data::
 
-     cd <>
+     cd module0_flow_tutorial
      mkdir tutorial
      source fetch_tutorial_files.sh tutorial/
 
