@@ -9,6 +9,8 @@
 ENV_NAME=$1
 CWD=`pwd`
 
+conda deactivate
+
 echo "Installing h5flow..."
 cd h5flow/
 conda env create -n $ENV_NAME -f environment-nompi.yml
