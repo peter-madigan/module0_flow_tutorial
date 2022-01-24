@@ -16,6 +16,7 @@ echo "Getting module0_flow..."
 git clone https://github.com/peter-madigan/module0_flow.git
 cd module0_flow
 git checkout develop # use develop branch because I haven't updated main for quite some time
+cd h5flow_data
 
 echo "Getting geometry..."
 curl -O https://portal.nersc.gov/project/dune/data/Module0/multi_tile_layout-2.2.16.yaml

@@ -21,7 +21,7 @@ Then create a new conda environment for tutorial::
 Finally run a test example::
 
      cd module0_flow
-     source ../../run_module0_flow_example.sh larndsim.example.h5
+     source ../../run_module0_flow_example.sh h5flow_data/larndsim.example.h5
 
 # Helpful links:
 
