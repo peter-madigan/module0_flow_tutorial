@@ -15,9 +15,9 @@ H5FLOW_CMD='h5flow'
 #H5FLOW_CMD='srun -n32 h5flow'
 
 # run all stages
-WORKFLOW1='h5flow_yamls/reco/charge/charge_event_building.yaml'
-WORKFLOW2='h5flow_yamls/reco/charge/charge_event_reconstruction.yaml'
-WORKFLOW3='h5flow_yamls/reco/combined/combined_reconstruction.yaml'
+WORKFLOW1='h5flow_yamls/workflows/charge/charge_event_building.yaml'
+WORKFLOW2='h5flow_yamls/workflows/charge/charge_event_reconstruction.yaml'
+WORKFLOW3='h5flow_yamls/workflows/combined/combined_reconstruction.yaml'
 
 
 if [ -e $OUTPUT_FILE ]; then

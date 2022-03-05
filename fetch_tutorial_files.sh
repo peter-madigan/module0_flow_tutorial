@@ -20,6 +20,7 @@ cd h5flow_data
 
 echo "Getting geometry..."
 curl -O https://portal.nersc.gov/project/dune/data/Module0/multi_tile_layout-2.2.16.yaml
+curl -O https://portal.nersc.gov/project/dune/data/Module0/light_module_desc-0.0.0.yaml
 
 echo "Getting particle range tables..."
 curl -O https://portal.nersc.gov/project/dune/data/Module0/merged/reco_data/PDG_muon_range_table_Ar.txt
