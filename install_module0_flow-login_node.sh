@@ -13,7 +13,8 @@ conda deactivate
 
 echo "Installing h5flow..."
 cd h5flow/
-conda env create -n $ENV_NAME -f environment-nompi.yml
+conda env create -n $ENV_NAME -f environment-nompi.yml || \
+    conda env update -n $ENV_NAME -f environment-nompi.yml
 conda activate $ENV_NAME
 pip install .
 
